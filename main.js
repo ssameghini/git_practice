@@ -33,7 +33,7 @@ let conclusions = [conclusion1, conclusion2, conclusion3, conclusion4, conclusio
 
 // And now the function.
 
-const myAdvise = () => {
+const myAdvice = () => {
     let randomIndices = [Math.floor(Math.random() * 5), Math.floor(Math.random() * 5), Math.floor(Math.random() * 5), Math.floor(Math.random() * 5)];
     let begin = beginnings[randomIndices[0]];
     let subject = subjects[randomIndices[1]];
