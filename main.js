@@ -28,7 +28,7 @@ let conclusion1 = "any terminal rats.";
 let conclusion2 = "your ilussion.";
 let conclusion3 = "the oddly sharp balls.";
 let conclusion4 = "all my excess of skin.";
-let conclusion5 = "jungles, just jungles.";
+let conclusion5 = "jungles, but forrest.";
 let conclusions = [conclusion1, conclusion2, conclusion3, conclusion4, conclusion5];
 
 // And now the function.
@@ -39,6 +39,12 @@ const myAdvice = () => {
     let subject = subjects[randomIndices[1]];
     let action = actions[randomIndices[2]];
     let conclusion = conclusions[randomIndices[3]];
-    console.log(begin + subject + action + conclusion);
+    // console.log(begin + subject + action + conclusion);
     return begin + subject + action + conclusion;
+};
+
+const printAdvice = () => {
+    let randomAdvice = myAdvice();
+    document.getElementById('advice').innerHTML = randomAdvice;
+    document.getElementById('adviser').innerHTML = 'Thanks! Please tell me more';
 };

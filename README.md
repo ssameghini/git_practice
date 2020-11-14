@@ -11,9 +11,9 @@ For this project, I should use my knowledges of Javascript (mostly), Git and HTM
 
 I intend to get the job done in a series of predefined steps:
 
-1. [] Set my workspace (create needed files, synchronize with GitHub and get any expected libraries)
-2. [] Write the code in a single `.js` file, unless I see that it could be cleaner to export and require modules.
-3. [] Test the code, debug and rewrite what needs to be corrected.
+1. [x] Set my workspace (create needed files, synchronize with GitHub and get any expected libraries)
+2. [x] Write the code in a single `.js` file, unless I see that it could be cleaner to export and require modules.
+3. [x] Test the code, debug and rewrite what needs to be corrected.
 4. [] Insert the function on an HTML styled page.
 5. [] Done!
 
